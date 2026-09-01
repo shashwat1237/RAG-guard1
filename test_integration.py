@@ -42,9 +42,9 @@ async def test_pipeline():
         return
 
     # ==========================================
-    # ROLE 3: SANDBOX & AUTHORITY (YOURS)
+    # ROLE 3: CONSTRAINTS & AUTHORITY (YOURS)
     # ==========================================
-    print("\n--- 3. SANDBOX & AUTHORITY (ROLE 3) ---")
+    print("\n--- 3. CONSTRAINTS & AUTHORITY (ROLE 3) ---")
     final_survivors = await apply_sandbox_filters(math_survivors)
     print(f"{len(final_survivors)}/{len(math_survivors)} survived Role 3.")
     
